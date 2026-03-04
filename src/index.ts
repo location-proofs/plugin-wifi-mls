@@ -74,7 +74,8 @@ export class WifiMlsPlugin implements LocationProofPlugin {
 }
 
 export type { WifiReading, AccessPoint, WifiMlsPluginOptions } from './types';
-export { collectWifi, readWifi, scanLinux, scanMacos, resolveViaMLS } from './collect';
+export { collectWifi, readWifi } from './collect';
 export { createStampFromSignals } from './create';
 export { signStamp } from './sign';
 export { verifyWifiMlsStamp } from './verify';
+export { canonicalize } from './canonicalize';

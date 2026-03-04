@@ -31,8 +31,6 @@ export function createStampFromSignals(
       source: reading.source,
       accuracyMeters: reading.accuracyMeters,
       apCount: reading.apCount,
-      lat: reading.lat,
-      lon: reading.lon,
     },
   };
 }
